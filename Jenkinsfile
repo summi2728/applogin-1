@@ -7,6 +7,7 @@ pipeline {
         stage ("git clone") {
             steps {
                 git url: 'https://github.com/tejesh555/applogin.git'
+                git url: ' https://github.com/tejesh555/ansible2.git'
             }
         }
         stage ("build") {
